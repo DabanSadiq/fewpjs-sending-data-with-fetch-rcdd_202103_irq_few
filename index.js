@@ -21,4 +21,4 @@ function submitData(name,email){
 
 }
 
-const r = submitData("daban","da");
+const r = submitData("daban sadiq","daban@gmail.com");
