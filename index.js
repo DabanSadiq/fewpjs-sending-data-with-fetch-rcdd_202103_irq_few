@@ -15,7 +15,10 @@ function submitData(name,email){
     return response.json()
   }).then((json)=>{
     console.log(json);
-
+    const body = document.getElementsByTagName('body')[0];
+    const p = document.createElement('p')
+    p.innerHTML = `${json.id}`
+    body.append(p);
   }).catch((e)=>{
     console.log(e);
   });
