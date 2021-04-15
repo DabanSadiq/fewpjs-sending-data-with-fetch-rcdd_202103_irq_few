@@ -1,7 +1,7 @@
 // Add your code here
 function submitData(name,email){
 
-   fetch("http://localhost:3000/users", {
+   fetch("http://www.localhost:3000/user", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
