@@ -15,6 +15,7 @@ function submitData(name,email){
     return response.json()
   }).then((json)=>{
     console.log(json);
+    
   }).catch((e)=>{
     console.log(e);
   });
